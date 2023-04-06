@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.navbar-resumeLogo, .navbar-projectsLogo, .navbar-contactLogo {
+    width: 45px;
+}

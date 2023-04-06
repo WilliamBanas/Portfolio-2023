@@ -1,0 +1,15 @@
+.socialNetworks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-linkedIn, .grid-github, .grid-mail {
+    width: 20px;
+    padding: 5px;
+}
+
+.socialNetworks-version {
+    padding: 10px 0 10px;
+    text-align: center;
+    font-size: .75em;
+}
