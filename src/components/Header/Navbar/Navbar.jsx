@@ -11,13 +11,19 @@ function Navbar() {
     return (
         <div className="navbar">
             <NavLink to="/">
-                    <img src={resume} className="navbar-resumeLogo"/>
+                <div className="navbar-box">
+                    <img src={resume} className="box-resumeLogo"/>
+                </div>
             </NavLink>
             <NavLink to="/projects">
-                    <img src={projects} className="navbar-projectsLogo"/>
+                <div className="navbar-box">
+                    <img src={projects} className="box-projectsLogo"/>
+                </div>
             </NavLink>
             <NavLink to="/contact">
-                    <img src={contact} className="navbar-contactLogo"/>
+                <div className="navbar-box">
+                    <img src={contact} className="box-contactLogo"/>
+                </div>
             </NavLink>
         </div>
     )

@@ -1,9 +1,20 @@
 .navbar {
+    /* position: absolute;
+    top: 30%; */
+    width: 100%;
+    height:fit-content;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 3rem;
 }
 
-.navbar-resumeLogo, .navbar-projectsLogo, .navbar-contactLogo {
-    width: 35px;
+.navbar-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.5rem;
+}
+
+.box-resumeLogo, .box-projectsLogo, .box-contactLogo {
+    width: 50px;
 }
